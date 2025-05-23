@@ -246,10 +246,25 @@ nav ul li a:hover{
     color: #ff6f00;
 }
 
+.music h4{
+    font-size: 35px;
+    color: #cecc65;
+}
+
 .music p{
     font-size: 35px;
 }
 
 iframe{
     margin: 30px;
+}
+
+.music a{
+    text-decoration: none;
+    color: #ea9c48;
+}
+
+.music a:hover{
+    color: rgb(215, 207, 147);
+    transition: 0.6s;
 }
