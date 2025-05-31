@@ -4,29 +4,33 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body{
     background-color: #110a01;
-    padding-right: 90px;
 }
 
 header{
     padding: 10px 30px;
     position: relative;
-    height: 800px;
-    
+    height: 650px;
 } 
 
+.cen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 nav{
-    position: absolute;
-    right: 370px;
     border-bottom: 3px solid rgb(224, 105, 1);
 }
 
 nav ul{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -46,25 +50,24 @@ nav ul li a:hover{
 }
 
 .logo img{
-    height: 450px;
+    height: 350px;
     position: absolute;
     top: 10px;
-    right: 50px;
+    right: 0px;
     border-radius: 200px;
 }
 
 .intr{
     font-size: 170px;
-    height: 750px;
     font-family: "DM Serif Text", serif;
+    display: flex;
+    justify-content: center;
 }
 
 .bord{
     position: relative;
-    top: 90px;
-    left: 320px;
-    width: 60%;
-    height: 500px;
+    width: 800px;
+    height: 400px;
     border: 3px solid rgb(215, 44, 25);
     border-radius: 25px;
 }
@@ -76,36 +79,36 @@ nav ul li a:hover{
 }
 
 .k1{
-    font-size: 170px;
+    font-size: 130px;
     font-family: "Comforter", cursive;
-    left: 100px;
-    top: -50px;
+    left: 70px;
+    top: -20px;
     color: #ff6f00;
 }
 
 .k2{
     font-family: "Bellota", system-ui;
-    font-size: 30px;
+    font-size: 25px;
     color: #df3838;
 }
 
 .pos{
-    left: 60px;
-    bottom: 140px;
+    left: 40px;
+    bottom: 110px;
 }
 
 .pos1{
-    left: 60px;
+    left: 40px;
     top: 110px;
 }
 
 .pos2{
-    left: 300px;
-    bottom: 140px;
+    left: 270px;
+    bottom: 110px;
 }
 
 .pos3{
-    left: 380px;
+    left: 300px;
     top: 110px;
 }
 
@@ -115,7 +118,7 @@ nav ul li a:hover{
     background-color: #110a01;
     font-size: 20px;
     font-family: "Bellota", system-ui;
-    left: 330px;
+    left: 240px;
     bottom: -40px;
     color: rgb(99, 213, 133);
     border: 3px solid rgb(215, 44, 25);
@@ -131,48 +134,48 @@ nav ul li a:hover{
 
 .i1{
     bottom: -150px;
-    left: 170px;
+    left: 100px;
 }
 
 .i2{
     bottom: -170px;
-    left: 450px;
+    left: 380px;
     height: 130px;
 }
 
 .i3{
     bottom: -150px;
-    left: 350px;
+    left: 280px;
 }
 
 .i4{
     bottom: -150px;
-    left: 650px;
+    left: 580px;
 }
 
 .shortbio{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
     font-family: "DM Serif Text", serif;
-    color: rgb(99, 213, 133);
+    color: rgb(82, 221, 224);
     font-size: 40px;
 }
 
-.shortbio h2{
+.b2{
+    font-size: 40px;
     color: #ff6f00;
+    text-align: center;
 }
 
 .shortbiop{
     text-align: center;
     font-size: 30px;
-    border: 3px solid #df3838;
+    border: 3px solid #228ee1;
     border-radius: 20px;
     padding: 20px;
-    margin: 50px;
+    margin: 10px, 50px, 50px, 50px;
     width: 60%;
-    position: relative;
-    left: 290px;
 }
 
 .car{
@@ -204,6 +207,7 @@ nav ul li a:hover{
     border-radius: 20px;
     margin: 30px;
     padding: 20px;
+    position: relative;
 }
 
 .in a{
@@ -216,22 +220,63 @@ nav ul li a:hover{
     transition: 0.6s;
 }
 
-.up{
-    position: fixed;
-    z-index: 10;
-    display: block;
-    font-size: 25px;
-    border: 2px solid #df3838;
-    border-radius: 25px;
-    width: 90px;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    color: #ea9c48;
-    right: 10px;
-    top: 10px;
-    background-color: #110a01;
+.in1{
+    position: absolute;
+    height: 100px;
+    top: -30px;
+    right: 250px;
+    border-radius: 50px;
 }
+
+.in2{
+    position: absolute;
+    height: 95px;
+    bottom: -40px;
+    right: 200px;
+    border-radius: 50px;
+}
+
+.in3{
+    position: absolute;
+    height: 100px;
+    width: 160px;
+    top: -30px;
+    right: 50px;
+    border-radius: 50px;
+}
+
+.in4{
+    position: absolute;
+    height: 80px;
+    bottom: -30px;
+    left: 50px;
+    border-radius: 80px;
+}
+
+.in5{
+    position: absolute;
+    height: 70px;
+    bottom: -30px;
+    left: 150px;
+    border-radius: 50px;
+}
+
+.in6{
+    position: absolute;
+    height: 100px;
+    top: -25px;
+    right: 350px;
+    border-radius: 50px;
+}
+
+.in7{
+    position: absolute;
+    height: 100px;
+    top: 30px;
+    left: 400px;
+    border-radius: 50px;
+}
+
 
 .music{
     display: flex;
@@ -267,4 +312,371 @@ iframe{
 .music a:hover{
     color: rgb(215, 207, 147);
     transition: 0.6s;
+}
+
+.mu4{
+    width: 600px;
+    height: 200px;
+}
+
+.answer{
+    height: 500px;
+    border-top: 3px solid #df3838;
+    border-bottom: 3px solid #df3838;
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
+
+label{
+    font-size: 30px; 
+}
+
+
+.liket{
+    width: 700px;
+    height: 50px;
+    font-size: 25px;
+}
+
+button{
+    width: 900px;
+    height: 60px;
+    font-size: 40px;
+    background-color: #228ee1;
+    color: aliceblue;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.extra{
+    display: block;
+    height: 220px;
+    border: 3px solid #9cdde8;
+    border-radius: 20px;
+    font-size: 25px;
+    position: relative;
+    margin-top: 30px;
+    padding: 10px;
+    color: #a1df74;
+    box-sizing: border-box;
+}
+
+.extra nav{
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    border: none;
+}
+
+.extra nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.extra nav ul li{
+    display: block;
+    font-family: "Bellota", system-ui;
+    font-size: 25px;
+}
+.extra nav ul li a{
+    text-decoration: none;
+    color: #ea9c48;
+}
+
+.extra nav ul li a:hover{
+    color: #ff6f00;
+    transition: 0.5s;
+}
+
+
+@media(max-width: 768px){
+    header{
+        height: 850px;
+    }   
+
+    .logo img{
+        height: 300px;
+        top: 250px;
+        right: 200px;
+    }
+
+    .bord{
+        height: 600px;
+    }
+
+    .k1{
+        left: 220px;
+        top: -50px;
+    }
+
+    .pos{
+        top: 190px;
+        left: 170px;
+    }
+
+    .pos1{
+        left: 170px;
+        top: 70px;
+    }
+
+    .pos2{
+        top: 190px;
+        left: 400px;
+    }
+
+    .pos3{
+        top: 70px;
+        left: 450px;
+    }
+
+    .acti{
+        left: 200px;
+    }
+
+    .in1{
+        height: 80px;
+        right: 80px;
+        top: -40px;
+    }
+
+    .in5{
+        left: 70px;
+    }
+
+    .sup{
+        height: 80px;
+    }
+    
+    .i1{
+        left: 50px;
+        bottom: -130px;
+    }
+
+    .i2{
+        bottom: -140px;
+        left: 330px;
+        height: 100px;
+    }
+
+    .i3{
+        bottom: -130px;
+        left: 230px;
+    }
+
+    .i4{
+        bottom: -120px;
+        left: 500px;
+        height: 70px;
+    }
+
+    select{
+        height: 40px;
+        width: 450px;
+    }
+
+    .liket{
+        width: 500px;
+        height: 40px;
+    }
+
+    button{
+        width: 600px;
+        height: 55px;
+    }
+
+    .extra{
+        height: 400px;
+    }
+
+    .extra nav{
+        top: 200px;
+        left: 200px;
+    }
+
+    .mu4{
+        width: 400px;
+        height: 100px;
+    }
+}
+
+@media(max-width:420px) {
+    header{
+        height: 1200px;
+    }
+
+    .logo img{
+        height: 200px;
+        top: 270px;
+        left: 10px;
+    }
+
+    .k1{
+        font-size: 60px;
+        left: 80px;
+        top: 65px;
+    }
+
+    .k2{
+        font-size: 20px;
+    }
+
+    .pos{
+        left: 10px;
+        top: 170px;
+    }
+
+    .pos1{
+        left: 10px;
+        top: 90px;
+    }
+
+    .pos2{
+        left: 170px;
+        top: 170px;
+    }
+
+    .pos3{
+        left: 170px;
+        top: 90px;
+    }
+
+    .acti{
+        left: 70px;
+        width: 130px;
+    }
+
+    .i1{
+        left: 10px;
+    }
+
+    .i3{
+        left: 180px;
+    }
+
+    .i2{
+        left: -40px;
+        bottom: -250px;
+        height: 110px;
+    }
+
+    .i4{
+        bottom: -225px;
+        left: 170px;
+    }
+
+    .shortbiop{
+        font-size: 25px;
+        width: 85%;
+    }
+    .car{
+        margin-top: 40px;
+    }
+
+    .car h2{
+        font-size: 40px;
+    }
+
+    .car h3{
+        font-size: 30px;
+        color: #a1df74;
+        text-align: center;
+    }
+
+    .car p{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .in3{
+        height: 80px;
+    }
+
+    .in2{
+        left: 20px;
+        height: 80px;
+    }
+
+    .in4{
+        bottom: -50px;
+    }
+    
+    .in6{
+        left: 20px;
+        top: -30px;
+        height: 80px;
+    }
+
+    .in7{
+        left: 100px;
+        top: -50px;
+    }
+
+    .music h2{
+        font-size: 40px;
+        color: #ff6f00;
+    }
+
+    .music h4{
+        font-size: 30px;
+        color: #cecc65;
+    }
+
+    .music p{
+        font-size: 25px;
+    }
+
+    .answer{
+        font-size: 30px;
+    }
+
+    select{
+        width: 200px;
+        height: 30px;
+        font-size: 25px;
+    }
+
+    label{
+        margin: 10px;
+        font-size: 25px; 
+    }
+
+
+    .liket{
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        font-size: 25px;
+    }
+
+    button{
+        width: 250px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .extra{
+        height: 500px;
+    }
+
+    .extra nav{
+        top: 350px;
+        left: 30px;
+    }
+
+    .mu4{
+        width: 250px;
+    }
 }

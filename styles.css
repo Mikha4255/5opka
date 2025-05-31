@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body{
+    background-color: #110a01;
+    color: #cd833d;
+}
+
+header{
+    padding: 10px 30px;
+    
+} 
+
+.cen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+nav{
+    border-bottom: 3px solid #df3838;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul li{
+    display: block;
+    font-family: "Bellota", system-ui;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ff6f00;
+}
+
+nav ul li a:hover{
+    color: #9cdde9;
+    transition: 0.5s;
+}
+
+nav:active{
+    background-image: url("42.gif");
+}
+
+.brat{
+    align-items: center;
+    padding: 20px;
+}
+
+.brat p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.brat img{
+    position: relative;
+    height: 450px;
+    left: 350px;
+    border-radius: 100px;
+}
+
+.brat:active{
+    background-image: url("42.gif");
+}
+
+.itsmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    gap: 30px;
+}
+
+.itsmain h2{
+    font-size: 50px;
+    color: #df3838;
+}
+
+.in4{
+    position: absolute;
+    height: 80px;
+    top: 30px;
+    right: 350px;
+    border-radius: 80px;
+}
+
+.orig{
+    width: 80%;
+    font-size: 30px;
+    color: #9cdde9;
+    text-align: center;
+    border: 3px solid #ff6f00;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.conf{
+    position: absolute;
+    right: -120px;
+    bottom: 100px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.five{
+    width: 80%;
+    font-size: 30px;
+    color: #9cdde9;
+    text-align: center;
+    border: 3px solid #eeff00;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.in2{
+    position: absolute;
+    height: 130px;
+    bottom: 70px;
+    left: -120px;
+    border-radius: 50px;
+}
+
+.attributes{
+    width: 80%;
+    font-size: 30px;
+    color: #9cdde9;
+    text-align: center;
+    border: 3px solid #22ff00;
+    padding: 30px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.in1{
+    position: absolute;
+    height: 130px;
+    top: 70px;
+    left: -130px;
+    border-radius: 50px;
+}
+
+.in3{
+    position: absolute;
+    height: 130px;
+    top: 70px;
+    right: -100px;
+    border-radius: 50px;
+}
