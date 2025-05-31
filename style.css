@@ -17,10 +17,23 @@ header{
     height: 650px;
 } 
 
+.mainlogo{
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-radius: 200px;
+}
+
 .cen{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 nav{
@@ -42,6 +55,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #9cdde8;
+    display: block;
 }
 
 nav ul li a:hover{
@@ -274,7 +288,7 @@ nav ul li a:hover{
     height: 100px;
     top: 30px;
     left: 400px;
-    border-radius: 50px;
+    border-radius: 50px; 
 }
 
 
@@ -357,6 +371,13 @@ button{
     color: aliceblue;
     border-radius: 30px;
     margin: 30px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #ff6f00;
+    color: #110a01;
 }
 
 .extra{
